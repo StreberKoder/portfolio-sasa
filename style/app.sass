@@ -1,0 +1,68 @@
+body 
+    margin: 0
+    padding: 0
+    font-family: sans-serifs
+    background: url('../img/background.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100vh
+    overflow: hidden
+    nav 
+        position: absolute
+        top: 2%
+        left: 50%
+        transform: translate(-50%, -50%)
+        
+        ul 
+            display: flex
+            list-style: none
+            li 
+                margin: 10px 25px
+                a 
+                    text-decoration: none
+                    font-weight: 500
+                    text-transform: uppercase
+                    color: #ffffff
+                    &:hover
+                        opacity: 0.5
+
+    .box
+        position: absolute
+        top: 48%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 33%
+        margin: 30px auto
+        padding: 50px 50px 0px 50px
+        text-align: center
+        background: rgba(0, 0, 0, 0.5)
+        color: #ffffff
+        font-family: sans-serif
+        img 
+            border-radius: 50%
+            border: 2px solid rgba(233, 255, 2, 0.8)
+        h1 
+            font-family: 'Tangerine', cursive
+            margin-bottom: 0
+            font-size: 48px
+        h3
+            margin-top: -10px
+            font-family: 'Tangerine', cursive
+            font-size: 28px
+        .media
+            width: 50%
+            margin: auto auto 0 auto
+            ul 
+                display: flex
+                list-style: none
+                text-align: center
+                justify-content: center
+                li 
+                    margin: 10px
+                    a 
+                        color: #ffffff
+                        text-decoration: none
+                        &:hover
+                            opacity: 0.7
+
+@import "media"
